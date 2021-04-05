@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on MT</title>
+    <link>https://don-bhavana.github.io/posts/</link>
+    <description>Recent content in Articles on MT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://don-bhavana.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Flask for Beginners</title>
+      <link>https://don-bhavana.github.io/posts/flask-for-beginners/</link>
+      <pubDate>Fri, 29 May 2020 10:07:17 +0530</pubDate>
+      
+      <guid>https://don-bhavana.github.io/posts/flask-for-beginners/</guid>
+      <description>If you are developing a web application in Python, chances are you&amp;rsquo;re leveraging a framework. This can be Flask, Django, FastAPI or any other similar frameworks. These frameworks are basically a collection of packages or modules which allows developers to write a web app without handling low-level details like protocols, sockets, etc. So in this article we’ll develop a web app with Python Flask using SQLite3 as the database. But first let’s see how it has become so popular.</description>
+    </item>
+    
+    <item>
+      <title>Webscraping using Beautifulsoup</title>
+      <link>https://don-bhavana.github.io/posts/beautifulsoup/</link>
+      <pubDate>Fri, 29 May 2020 10:07:17 +0530</pubDate>
+      
+      <guid>https://don-bhavana.github.io/posts/beautifulsoup/</guid>
+      <description>The data-rich internet is now the ground for a lot of research, and web scraping gives you the leverage to collect the information that suits your needs. So, in this article we are going to use beautifulsoup - a popular python library for web scraping, and get some info on a familiar topic - the Covid-19 pandemic.
+But before we dive in, let’s clear up some FAQs.
+Why Web Scraping?</description>
+    </item>
+    
+  </channel>
+</rss>
