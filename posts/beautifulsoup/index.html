@@ -209,17 +209,17 @@ We are going to parse the entire row and pick the columns we need and append tho
 	country = row.find('a')
 	cases = row.findAll('td')[2].contents
 	deaths = row.findAll('td')[4].contents
-	if None in (name, cases, deaths):
+	if None in (country, cases, deaths):
 		continue
 	print(country.text.strip(), “—&gt;”, ””.join(cases),&quot;&quot;.join(deaths)])
 </code></pre><p>Let’s add in a condition so as to get only the top ten countries and get rid of that huge amount of data overflowing our terminal.</p>
 <pre><code>count=0
 for row in table.find_all('tr')[1:]:  
 	if count &lt;10:
-		name = row.find('a')
+		country = row.find('a')
 		cases = row.find_all('td')[2].contents
 		deaths = row.findAll('td')[4].contents
-		if None in (name, cases, deaths):
+		if None in (country, cases, deaths):
 			continue
 		print(country.text.strip(), “—&gt;”, ””.join(cases),&quot;&quot;.join(deaths)])
 		count+=1
